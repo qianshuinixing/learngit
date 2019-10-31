@@ -1,2 +1,2 @@
 import time
-ds=3245
+wo = 2
