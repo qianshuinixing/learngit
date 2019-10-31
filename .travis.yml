@@ -1,7 +1,7 @@
 language: python
 sudo: required
 install:
-  - pip install foo
+  - pip install flake8
   - mkdir -p ~/bin/ && export export PATH="~/bin/:$PATH"
   - curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b ~/bin
 
