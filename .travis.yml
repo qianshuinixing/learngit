@@ -1,0 +1,7 @@
+language: python
+install:
+  - mkdir -p ~/bin/ && export export PATH="~/bin/:$PATH"
+  - curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b ~/bin
+
+script:
+  - reviewdog -conf=.reviewdog.yml -reporter=github-pr-check
