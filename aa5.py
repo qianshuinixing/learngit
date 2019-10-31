@@ -1,2 +1,2 @@
 import time
-wo=2
+wo = 2
