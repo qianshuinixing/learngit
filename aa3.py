@@ -1,2 +1,3 @@
 import time
-wo=2
+ni=43543
+ta=4657657
